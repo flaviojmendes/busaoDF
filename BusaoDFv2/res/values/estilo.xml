@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="ListItemTitle">
+        <item name="android:textColor">@color/White</item>
+        <item name="android:textSize">@dimen/label_input</item>
+        <item name="android:textStyle">bold</item>
+	</style>
+	
+    <!-- Paragrafo -->
+    <style name="LabelInput">
+        <item name="android:gravity">left</item>
+        <item name="android:textColor">@color/Laranja</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+    <style name="LabelSub">
+        <item name="android:gravity">left</item>
+        <item name="android:textColor">@color/DarkGray</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+    
+    <!-- Field Row -->
+    <style name="Input">
+        <item name="android:textColor">@color/DarkGray</item>
+        <item name="android:textSize">@dimen/input</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/style_input</item>
+		        
+    </style>
+    
+    <!-- Button -->
+    <style name="Button">
+        <item name="android:textColor">@color/White</item>
+        <item name="android:textSize">@dimen/label_input</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/style_botoes</item>
+        
+    </style>
+    <style name="PainelInfo">
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:textSize">@dimen/label_info</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/Salmao</item>
+        
+    </style>
+    
+    <!-- Button -->
+    <style name="Titulo">
+        <item name="android:textColor">@color/Laranja</item>
+    </style>
+</resources>

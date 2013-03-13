@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="DarkGreen">#006400</color>
+    <color name="Violet">#EE82EE</color>
+    <color name="White">#FFFFFF</color>
+    <color name="Black">#000000</color>
+    <color name="CinzaClaro">#EEF0EF</color>
+   <color name="Gray">#CCCCCC</color>
+    <color name="DarkGray">#727272</color>
+    <color name="Yellow">#FFFF00</color>
+    <color name="Red">#FF0000</color>
+    <color name="LightRed">#ffbbbb</color>
+    <color name="Laranja">#DC231C</color>
+    <color name="LaranjaClaro">#EC685E</color>
+    <color name="LaranjaEscuro">#EA4335</color>
+    <color name="Salmao">#FDEAE8</color>
+    <color name="SalmaoEscuro">#F1837A</color>
+    
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="label_input">18dp</dimen>
+    <dimen name="input">22dp</dimen>
+    <dimen name="label_info">12dp</dimen>
+   
+</resources>

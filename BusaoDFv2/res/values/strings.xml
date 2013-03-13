@@ -1,0 +1,28 @@
+<resources>
+
+     <string name="app_name">Busão DF</string>
+    <string name="menu_settings">Configurações</string>
+    <string name="titulo_app">Busão DF</string>
+    <string name="title_activity_resultado_linhas">Linhas Econtradas</string>
+    <string name="title_activity_pesquisa_linhas">Pesquisando Linhas</string>
+    <string name="title_activity_resultado_horarios">Horários Encontrados</string>
+    <string name="title_activity_pesquisa_horarios">Pesquisando Horários</string>
+    <string name="title_activity_comentario">Comentário</string>
+    
+    <string name="label_linha">Número da Linha:</string>
+    <string name="label_ouOrigemDestino">Origem / Destino</string>
+    <string name="label_opcional">(Opcional)</string>
+    <string name="label_nome">Nome:</string>
+    <string name="label_comentario">Comentário:</string>
+    <string name="label_comentar">Comentar</string>
+    
+    <string name="label_aviso">Todos os dados são fornecidos pelo DFTrans.</string>
+    <string name="label_escolha">Escolha:</string>
+    <string name="label_itinerario">Itinerários</string>
+    <string name="label_horario">Horários</string>
+    <string name="label_pesquisar">Pesquisar</string>
+    <string name="label_pesquisando_linhas">Pesquisando linhas..</string>
+    <string name="label_pesquisando_horarios">Pesquisando horários..</string>
+    
+
+</resources>

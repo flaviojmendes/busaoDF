@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:id="@+id/conteudo"
+    android:background="@drawable/bg_principal" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/SalmaoEscuro"
+        android:gravity="top"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+       	android:layout_marginTop="0dp"
+       	android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/label_linha"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginTop="10dp"
+			style="@style/LabelInput"
+            android:text="@string/label_linha"
+            android:textSize="@dimen/label_input"
+             />
+
+        <EditText
+            android:id="@+id/input_linha"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:inputType="numberDecimal"
+            android:padding="10dp"
+            style="@style/Input"
+            android:background="@drawable/style_input" >
+	
+            <requestFocus />
+        </EditText>
+        
+    </LinearLayout>
+	
+     <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+       	android:layout_marginTop="0dp"
+       	android:orientation="vertical" >
+        
+    <LinearLayout  
+        android:layout_width="fill_parent"
+        android:layout_height="25dp">
+	   <TextView
+	        android:id="@+id/label_ouOrigemDestino"
+	        android:layout_width="wrap_content"
+	        android:layout_height="25dp"
+	        style="@style/LabelInput"
+	        android:text="@string/label_ouOrigemDestino"
+	        android:textSize="@dimen/label_input"
+	         />
+	   <TextView
+	        android:id="@+id/label_opcional"
+	        android:layout_width="wrap_content"
+	        android:layout_height="25dp"
+	        android:layout_marginLeft="5dp"
+	        style="@style/LabelSub"
+	        android:text="@string/label_opcional"
+	        android:textSize="@dimen/label_input"
+	         />
+   
+   </LinearLayout>
+	
+   	<EditText
+        android:id="@+id/input_origem_destino"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:inputType="text"
+        style="@style/Input"
+        android:background="@drawable/style_input"
+        android:padding="10dp"
+         />
+   </LinearLayout>
+
+   <LinearLayout
+       style="@style/Button"
+       android:id="@+id/botao_completo"
+       android:layout_width="200dp"
+       android:layout_height="50dp"
+        >
+
+       <Button
+           android:id="@+id/botao_pesquisa"
+           android:layout_weight="0.7"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:layout_marginBottom="10dp"
+           android:layout_marginTop="10dp"
+           android:layout_marginLeft="30dp"
+           android:textSize="19dp"
+           android:background="@drawable/shape_0_border"
+           android:text="@string/label_pesquisar"
+           android:textColor="@color/White"
+          	 />
+
+       <ImageView
+           android:id="@+id/img_lupa_pesquisar"
+           android:layout_width="wrap_content"
+           android:layout_marginRight="5dp"
+           android:contentDescription="@string/label_pesquisar"
+           android:layout_height="match_parent"
+           android:src="@drawable/ic_search" />
+   </LinearLayout>
+	<LinearLayout 
+	   android:background="@drawable/style_painel_info"
+       android:layout_width="280dp"
+       android:layout_height="40dp"
+       android:layout_marginTop="50dp"
+       android:layout_marginBottom="0dp">
+
+		<ImageView
+		    android:id="@+id/img_info"
+		    android:contentDescription="@string/label_aviso"
+		    android:layout_gravity="center_vertical"
+		    android:layout_marginLeft="5dp"
+		   	android:layout_marginRight="5dp"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:src="@drawable/ic_info" />
+
+	    <TextView
+	        android:id="@+id/label_aviso"
+	        android:layout_width="wrap_content"
+	        android:layout_height="fill_parent"
+	        android:layout_marginTop="0dp"
+	        android:gravity="center_vertical"
+	        android:textSize="@dimen/label_info"
+	        android:text="@string/label_aviso"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+	</LinearLayout>
+	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:alpha="1.0"
+        android:id="@+id/layout_ads"
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+       	android:gravity="bottom" >
+        
+    </LinearLayout>
+</LinearLayout>

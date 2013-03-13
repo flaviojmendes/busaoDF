@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="myTheme" parent="Theme.Sherlock.Light">
+        <item name="android:actionBarStyle">@style/myTheme.ActionBar</item>
+        <item name="android:actionMenuTextColor">@color/Laranja</item>
+        
+    </style>
+
+    <style name="myTheme.ActionBar" parent="Widget.Sherlock.Light.ActionBar">
+        <item name="android:background">@drawable/action_bar_background</item>
+        <item name="android:titleTextStyle">@style/myTheme.ActionBar.Text</item>
+    </style>
+
+    <style name="myTheme.ActionBar.Text" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/Laranja</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20dp</item>
+    
+
+    </style>
+
+</resources>
+
